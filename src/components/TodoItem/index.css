@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.list-item-styling {
+  background-color: #ffffff;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  list-style-type: none;
+}
+
+.paragraph-styling {
+  color: #000000;
+  margin-right: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.button-styling {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border-radius: 6px;
+  height: 20px;
+  border-color: #ff0b37;
+  border-style: solid;
+  border-width: 1px;
+}
