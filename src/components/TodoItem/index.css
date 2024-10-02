@@ -5,7 +5,7 @@
   background-size: cover;
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
   width: 100%;
@@ -27,4 +27,24 @@
   border-color: #ff0b37;
   border-style: solid;
   border-width: 1px;
+}
+
+.edit-button {
+  height: 25px;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #0b6ea3;
+  margin: 0px 10px 0px 10px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+}
+
+.title-input {
+  height: 30px;
+  border: 1px solid #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  background-color: transparent;
+  width: 60%;
 }
